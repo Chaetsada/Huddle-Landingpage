@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .main-button{
+        @apply bg-primary-100 text-secondary-200 text-sm shadow-xl font-bold px-10 py-3 rounded-full hover:opacity-70 md:py-5 md:px-24
+    }
+    .container{
+        @apply max-w-[1240px] mx-auto
+    }
+}
